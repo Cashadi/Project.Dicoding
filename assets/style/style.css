@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+li {
+  list-style: none;
+}
+
+nav {
+  background-color: #035f65;
+  color: #fff;
+  height: 90px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list li {
+  float: left;
+  padding: 35px 10px;
+}
+.header-list li a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+}
+main {
+  padding: 100px 80px;
+  /* overflow: auto; */
+}
+.top {
+  padding: 180px 0 100px 0;
+  background-image: url(https://asset-relasio.s3-ap-southeast-1.amazonaws.com/userfiles/article/thumbs_743_439/beb6930cefafb26ba2e55b8f661f502e.jpeg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.top h1 {
+  /* opacity: 0.7; */
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: white;
+}
+#pelajaran {
+  padding-bottom: 80px;
+  padding-left: 8%;
+  padding-right: 8%;
+  background-color: #f7f7f7;
+  /* text-align: center; */
+}
+.content {
+  height: 500px;
+  margin-top: 100px;
+  text-align: center;
+}
+.title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+.content-item {
+  float: left;
+  margin-right: 40px;
+}
+.content-item p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+.image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+aside .profile {
+  height: 300px;
+  width: 100%;
+  background-color: #035f65;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+.profile table {
+  text-align: center;
+}
+.profile img {
+  width: 200px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+.profile figcaption {
+  font-size: 20px;
+  color: white;
+}
+.profile h2 {
+  font-size: 30px;
+  color: white;
+}
+.profile p {
+  color: white;
+}
+footer {
+  height: 100px;
+  margin-top: 10px;
+  padding: 20px;
+  color: white;
+  background-color: #035f65;
+  text-align: center;
+  font-weight: bold;
+}
+footer p {
+  text-align: center;
+  padding-top: 20px;
+}
+@media screen and (max-width: 600px) {
+  article,
+  section {
+    width: 100%;
+    padding: 0;
+  }
+}
